@@ -1,0 +1,26 @@
+{
+    "name": "gh-o-st/bytesize",
+    "description": "A simple conversion library for dealing with digital size units.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bytesize\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gh-o-st"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.3",
+        "ext-bcmath": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable",
+        "phpstan/phpstan": "@stable"
+    }
+}
